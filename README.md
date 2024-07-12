@@ -1,6 +1,6 @@
 # Scientific Calculator App
 
-This is a simple scientific calculator that can be used for a variety of mathematical operations. It includes all of the basic arithmetic operations, as well as trigonometric, logarithmic, and exponential functions. The calculator also has basic memory functions and can convert between degrees and radians.
+This is a simple scientific calculator that can be used for a variety of mathematical operations. It includes all of the basic arithmetic operations, as well as trigonometric, logarithmic, and exponential functions. The calculator also has can convert between degrees and radians.
 
 ## Features
 
@@ -9,7 +9,6 @@ This is a simple scientific calculator that can be used for a variety of mathema
 - Logarithmic functions (common and natural logarithm)
 - Exponential function
 - Basic conversion functions (degrees to radians and vice versa)
-- Memory functions (memory clear, memory add, memory recall, memory subtract)
 - Clear button (AC)
 - Delete button (DEL)
 
