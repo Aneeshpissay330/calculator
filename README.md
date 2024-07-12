@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# Scientific Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple scientific calculator that can be used for a variety of mathematical operations. It includes all of the basic arithmetic operations, as well as trigonometric, logarithmic, and exponential functions. The calculator also has basic memory functions and can convert between degrees and radians.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Basic arithmetic operations (addition, subtraction, multiplication, and division)
+- Trigonometric functions (sine, cosine, tangent, inverse sine, inverse cosine, and inverse tangent)
+- Logarithmic functions (common and natural logarithm)
+- Exponential function
+- Basic conversion functions (degrees to radians and vice versa)
+- Memory functions (memory clear, memory add, memory recall, memory subtract)
+- Clear button (AC)
+- Delete button (DEL)
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Check out the live demo: [Scientific Calculator](https://calculator-zebv.onrender.com)
